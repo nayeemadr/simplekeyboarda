@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bengali layout, shifted layer: a different character set per key,
+     not just upper/lower case (matches how Bangla Gboard's Shift works). -->
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+    android:keyWidth="10%p"
+    android:keyHeight="50dp"
+    android:horizontalGap="0px"
+    android:verticalGap="2px">
+
+    <Row>
+        <Key android:codes="2434" android:keyLabel="ং" android:popupCharacters="ঙ" />
+        <Key android:codes="2527" android:keyLabel="য়" android:popupCharacters="য" />
+        <Key android:codes="2463" android:keyLabel="ট" android:popupCharacters="ড" />
+        <Key android:codes="2475" android:keyLabel="ফ" android:popupCharacters="প" />
+        <Key android:codes="2464" android:keyLabel="ঠ" android:popupCharacters="ট" />
+        <Key android:codes="2459" android:keyLabel="ছ" android:popupCharacters="চ" />
+        <Key android:codes="2461" android:keyLabel="ঝ" android:popupCharacters="জ" />
+        <Key android:codes="2462" android:keyLabel="ঞ" android:popupCharacters="হ" />
+        <Key android:codes="2456" android:keyLabel="ঘ" android:popupCharacters="গ" />
+        <Key android:codes="2525" android:keyLabel="ঢ়" android:popupCharacters="ড়" />
+    </Row>
+
+    <Row>
+        <Key android:codes="2443" android:keyLabel="ঋ" android:horizontalGap="5%p" android:popupCharacters="ি" />
+        <Key android:codes="2498" android:keyLabel="ূ" android:popupCharacters="ু" />
+        <Key android:codes="2496" android:keyLabel="ী" android:popupCharacters="ৃ" />
+        <Key android:codes="2477" android:keyLabel="ভ" android:popupCharacters="ব" />
+        <Key android:codes="2433" android:keyLabel="ঁ" android:popupCharacters="্" />
+        <Key android:codes="2437" android:keyLabel="অ" android:popupCharacters="া" />
+        <Key android:codes="2454" android:keyLabel="খ" android:popupCharacters="ক" />
+        <Key android:codes="2469" android:keyLabel="থ" android:popupCharacters="ত" />
+        <Key android:codes="2471" android:keyLabel="ধ" android:popupCharacters="দ" />
+    </Row>
+
+    <Row>
+        <Key android:codes="-1" android:keyLabel="⇧" android:keyWidth="15%p" android:isModifier="true" android:isSticky="true" />
+        <Key android:codes="2435" android:keyLabel="ঃ" android:popupCharacters="ঁ" />
+        <Key android:codes="2451" android:keyLabel="ও" android:popupCharacters="ো" />
+        <Key android:codes="2447" android:keyLabel="এ" android:popupCharacters="ে" />
+        <Key android:codes="2482" android:keyLabel="ল" android:popupCharacters="র" />
+        <Key android:codes="2467" android:keyLabel="ণ" android:popupCharacters="ন" />
+        <Key android:codes="2487" android:keyLabel="ষ" android:popupCharacters="স" />
+        <Key android:codes="2486" android:keyLabel="শ" android:popupCharacters="ম" />
+        <Key android:codes="-5" android:keyLabel="⌫" android:keyWidth="15%p" />
+    </Row>
+
+    <Row android:rowEdgeFlags="bottom">
+        <Key android:codes="-101" android:keyLabel="🌐" android:keyWidth="10%p" />
+        <Key android:codes="-2" android:keyLabel="?১২৩" android:keyWidth="10%p" />
+        <Key android:codes="44" android:keyLabel="," android:keyWidth="10%p" />
+        <Key android:codes="-102" android:keyLabel="🙂" android:keyWidth="10%p" />
+        <Key android:codes="32" android:keyLabel="স্পেস" android:keyWidth="40%p" android:isRepeatable="true" />
+        <Key android:codes="2404" android:keyLabel="।" android:keyWidth="10%p" />
+        <Key android:codes="-4" android:keyLabel="⏎" android:keyWidth="10%p" />
+    </Row>
+
+</Keyboard>
